@@ -1,0 +1,71 @@
+# Compiled class file
+*.class
+*.iml
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# intellij
+.idea/
+
+# Java Selenium ignore files
+target/
+Reports/
+venv/
+
+# python files
+__pycache__/
+*.pyc
+
+# Mac file
+.DS_Store
+
+
+# Ranorex Specific files
+[Rr]eports/
+[Bb]ackup/
+*.jpg
+*.rxuser
+*.rxuser~*
+*.pref
+*.pref~*
+*.sln~*
+*.rxsln~*
+**/bin/[Dd]ebug/*.rxlog
+**/bin/[Dd]ebug/*.rxlog.data
+[Ii]mage*/
+**/bin/[Dd]ebug/*.png
+obj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+packages/
+# except build/, which is used as an MSBuild target.
+!packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# icloud Files
+*.icloud
